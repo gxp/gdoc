@@ -122,7 +122,7 @@ A curated list of awesome things related to docsify
 
 https://github.com/docsifyjs/awesome-docsify
 
-## TOC
+## sideBar(TOC)
 
 https://docsify.js.org/#/more-pages?id=table-of-contents
 
@@ -151,7 +151,7 @@ When subMaxLevel is set, each header is automatically added to the table of cont
 </script>
 ```
 
-## 样式
+### 样式
 
 ```
 <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
@@ -159,7 +159,7 @@ When subMaxLevel is set, each header is automatically added to the table of cont
 <link rel="stylesheet" href="assets/css/main.css">
 ```
 
-## 搜索框
+### 搜索框
 
 ```
 <script>
@@ -175,6 +175,30 @@ When subMaxLevel is set, each header is automatically added to the table of cont
 
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 ```
+
+### Nested Sidebars
+
+https://docsify.js.org/#/more-pages?id=sidebar
+
+You may want the sidebar to update with only navigation to reflect the current directory. This can be done by adding a _sidebar.md file to each folder.
+
+_sidebar.md is loaded from each level directory. If the current directory doesn't have _sidebar.md, it will fall back to the parent directory. If, for example, the current path is /guide/quick-start, the _sidebar.md will be loaded from /guide/_sidebar.md.
+
+You can specify alias to avoid unnecessary fallback.
+
+```
+<script>
+  window.$docsify = {
+    loadSidebar: true,
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+    }
+  }
+</script>
+```
+
+You can create a README.md file in a subdirectory to use it as the landing page for the route.
+
 
 # Docute
 

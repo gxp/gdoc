@@ -1,0 +1,2 @@
+- [nagivate](/emacs/nagivate-quickly-in-the-current-buffer.md)
+- [magit](/emacs/magit.md)
