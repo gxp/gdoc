@@ -57,3 +57,11 @@ https://github.com/paritytech/parity-ethereum
 https://github.com/mbasso/awesome-wasm
 
 Curated list of awesome things regarding WebAssembly (wasm) ecosystem.
+
+## deno
+
+https://github.com/denoland/deno
+
+A secure JavaScript and TypeScript runtime https://deno.land/
+
+lang: Rust
