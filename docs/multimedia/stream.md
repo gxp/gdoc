@@ -59,3 +59,20 @@ Main features:
 Avahi - Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour http://www.avahi.org
 
 [github](https://github.com/lathiat/avahi)
+
+
+# SRS
+
+SRS/3.0，OuXuli，是一个流媒体集群，支持RTMP/HLS/WebRTC/SRT/GB28181，高效、稳定、易用，简单而快乐。
+
+SRS定位是运营级的互联网直播服务器集群，追求更好的概念完整性和最简单实现的代码。SRS提供了丰富的接入方案将RTMP流接入SRS， 包括推送RTMP到SRS、推送RTSP/UDP/FLV到SRS、拉取流到SRS。 SRS还支持将接入的RTMP流进行各种变换，譬如将RTMP流转码、流截图、 转发给其他服务器、转封装成HTTP-FLV流、转封装成HLS、 转封装成HDS、转封装成DASH、录制成FLV/MP4。SRS包含支大规模集群如CDN业务的关键特性， 譬如RTMP多级集群、源站集群、VHOST虚拟服务器 、 无中断服务Reload、HTTP-FLV集群。此外，SRS还提供丰富的应用接口， 包括HTTP回调、安全策略Security、HTTP API接口、 RTMP测速。SRS在源站和CDN集群中都得到了广泛的应用Applications。
+
+[github](https://github.com/ossrs/srs)
+[wiki](https://github.com/ossrs/srs/wiki/v3_CN_Home)
+
+
+# NymphCast
+
+Audio and video casting system with support for custom applications.
+
+[github](https://github.com/MayaPosch/NymphCast)
