@@ -24,10 +24,12 @@ apt update -yqq && apt install -yqq autoconf-archive gcc g++ cmake unzip libssl-
 
 
 使用autoconf编译时
+
+```
 ./autogen.sh
 ./configure
-
-报错：syntax error near unexpected token `AX_CXX_COMPILE_STDCXX'
+```
+报错：syntax error near unexpected token AX_CXX_COMPILE_STDCXX
 
 解决方法:->使用上面的指令安装相关依赖
 
@@ -40,6 +42,7 @@ cmake ..
 
 解决方法：查看INSTALL文档
 备注：libcuckoo安装到/usr, 或 在CMakeLists.txt 111行增加
+
 ```
 set (CMAKE_REQUIRED_INCLUDES "/usr/local/include")
 ```
@@ -53,3 +56,12 @@ an easy to use embedded scripting language for C++.
 http://chaiscript.com/
 
 https://github.com/ChaiScript/ChaiScript
+
+
+
+
+# 参考
+
+[使用 Clang 解析 C++ 头文件实现自动脚本绑定](http://sakishum.github.io/blog/clang-ast-python/)
+
+[LLVM与C++代码的相互调用](https://blog.csdn.net/songchuwang1868/article/details/84977794?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)

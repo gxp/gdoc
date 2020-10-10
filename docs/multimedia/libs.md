@@ -31,3 +31,11 @@ ESP-Skainet 以最便捷的方式支持基于乐鑫的 ESP32 芯片的唤醒词�
 
 
 [github](https://github.com/espressif/esp-skainet)
+
+# sfml
+
+SFML — Simple and Fast Multimedia Library
+
+SFML is a simple, fast, cross-platform and object-oriented multimedia API. It provides access to windowing, graphics, audio and network. It is written in C++, and has bindings for various languages such as C, .Net, Ruby, Python.
+
+https://github.com/SFML/SFML

@@ -75,3 +75,41 @@ Other alternatives (only for UML sequence diagrams)
 LaTeX to UML
 Beyond UML diagrams
 Dead modeling tools
+
+# textuml
+
+TextUML Toolkit is an open-source IDE for UML that lets you create models at the same speed you write code. By adopting a textual notation, the TextUML Toolkit provides benefits you will not get elsewhere:
+
+http://abstratt.github.io/textuml/
+
+# Code2UML
+
+Code2UML is a open-source tool for creating UML diagrams from pseudo-code (syntax is pretty similar to java). It lets you focus more on your projects structure instead of thinking about designing diagrams and UML Standards.
+
+https://github.com/DarkReaperDev/Code2UML
+
+
+# uml on HTML
+
+## mxgraph
+
+mxGraph is a fully client side JavaScript diagramming library
+
+
+https://github.com/jgraph/mxgraph
+
+## gojs
+
+From simple flowcharts and org charts to highly-specific industrial diagrams, SCADA and BPMN diagrams, medical diagrams such as genograms and outbreak modeling diagrams, and more. GoJS makes constructing graphs of complex nodes, links, and groups easy with customizable templates and layouts.
+
+商业库
+
+https://gojs.net/latest/index.html
+
+
+
+## 参考
+
+[10+ JavaScript libraries to draw your own diagrams (2020 edition)](https://modeling-languages.com/javascript-drawing-libraries-diagrams/)
+
+[UML/模型工具Cpp2Uml、TextUML、DPAToolkit、COPASI介绍](https://www.linux110.com/ruanjian/1231.html)

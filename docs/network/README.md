@@ -39,3 +39,39 @@ Linus Torvalds 如何评价？
 Can I just once again state my love for it and hope it gets merged soon? Maybe the code isn't perfect, but I've skimmed it, and compared to the horrors that are OpenVPN and IPSec, it's a work of art.
 
 https://github.com/WireGuard/
+
+## Udp2raw-tunnel
+
+tunnel，通过raw socket给UDP包加上TCP或ICMP header，进而绕过UDP屏蔽或QoS，或在UDP不稳定的环境下提升稳定性。可以有效防止在使用kcptun或者finalspeed的情况下udp端口被运营商限速。
+
+支持心跳保活、自动重连，重连后会恢复上次连接，在底层掉线的情况下可以保持上层不掉线。同时有加密、防重放攻击、信道复用的功能。
+
+[doc](https://github.com/wangyu-/udp2raw-tunnel/blob/unified/doc/README.zh-cn.md)
+
+## UDPspeeder
+
+双边网络加速工具，软件本身的功能是加速UDP；不过，配合vpn可以加速全流量(包括TCP/UDP/ICMP)。通过合理配置，可以加速游戏，降低游戏的丢包和延迟；也可以加速下载和看视频这种大流量的应用。用1.5倍的流量，就可以把10%的丢包率降低到万分之一以下。跟 kcptun/finalspeed/BBR 等现有方案比，主要优势是可以加速 UDP 和 ICMP，现有方案几乎都只能加速 TCP。
+
+[doc](https://github.com/wangyu-/UDPspeeder/blob/branch_libev/doc/README.zh-cn.md)
+
+
+## fping
+
+High performance ping tool
+
+fping is a program to send ICMP echo probes to network hosts, similar to ping, but much better performing when pinging multiple hosts. fping has a long long story: Roland Schemers did publish a first version of it in 1992 and it has established itself since then as a standard tool.
+
+https://github.com/schweikert/fping
+
+
+## Psping四大功能介绍:ICMP Ping/TCP Ping/延迟测试/带宽测试
+
+ 本文主要介绍微软的测试工具Psping，该工具功能主要包括：ICMP Ping、TCP Ping、延迟测试、带宽测试
+
+ 需要说明一种应用场景：由于Windows Azure数据中心禁ICMP，使用Psping的TCP Ping的功能来测试联通性或者故障排查就非常有用了。
+
+https://blog.csdn.net/swartz_lubel/article/details/78112558
+
+[利用TCP协议进行ping](https://blog.csdn.net/shaunfang/article/details/18412521)
+
+[几款网络测试工具总结](https://www.cnblogs.com/kerrycode/p/8092942.html)

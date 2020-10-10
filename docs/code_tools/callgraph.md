@@ -3,7 +3,9 @@
 在linux下能够将代码中函数调用关系生成调用树，并可以选择生成dot语言文件，通过dot工具生成调用关系图
 
 calltree基本命令：
+```
 calltree -gb -np –m *.c
+```
 
 备注：
 calltree 比较老，ubuntu上都没有安装包了。
@@ -45,3 +47,5 @@ https://www.gnu.org/software/cflow/manual/cflow.html
 # 参考
 
 https://www.xuebuyuan.com/3234973.html
+
+[看开源代码利器—用Graphviz + CodeViz生成C/C++函数调用图(call graph)](https://www.cnblogs.com/lanxuezaipiao/p/3450201.html)

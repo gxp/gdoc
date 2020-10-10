@@ -152,3 +152,30 @@ My single header libraries for C/C++.
 
 
 [github](https://github.com/vurtun/mmx)
+
+
+# C-Pluff
+
+a plug-in framework for C
+
+[ref](https://c-pluff.org/reference/c-api/index.html)
+[src](https://github.com/jlehtine/c-pluff)
+
+[XBMC插件编写规范](https://blog.csdn.net/banguijun/article/details/11739017)
+[XBMC研究之C-Pluff熟悉](http://blog.sina.com.cn/s/blog_6c14c17e0100ln87.html)
+
+
+# Pony
+
+Pony is an open-source, actor-model, capabilities-secure, high performance programming language
+
+https://github.com/ponylang/ponyc
+
+
+# libatask
+
+纯C语言高性能异步多任务多事件驱动的协程库|
+
+libatask(Asynchronous multitasking library)是一个由纯C语言编写的基于事件循环由多事件驱动的高性能协程库。它将事件与协程进行了结合，还原了协程最本质的用途。libatask性能高且资源占用极低，仅需56B的RAM，以及不到1K的CODE，不仅仅是PC环境，连最苛刻单片机环境中也能完美运行。
+
+https://github.com/xiaoliang314/libatask

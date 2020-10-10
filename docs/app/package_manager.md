@@ -149,3 +149,83 @@ http://wiki.openmoko.org/wiki/Opkg
 https://github.com/shr-project/opkg
 
 For latest version go to http://git.yoctoproject.org/cgit/cgit.cgi/opkg/
+
+## meta-package-manager
+
+CLI providing unifying interface to all package managers.
+
+https://github.com/kdeldycke/meta-package-manager
+
+## sys2/pacman
+
+Pacman 是一个软件包管理器,，作为ArchLinux发行版的一部分，是 Arch Linux 的一大亮点。它将一个简单的二进制包格式和易用的构建系统结合了起来。不管软件包是来自官方的 Arch 库还是用户自己创建，Pacman 都能方便的管理。
+
+## nix包管理工具
+
+Nix是一个强大的包管理工具，它使得包管理更可靠并且可重现。Nix提供了原子级别的升级和回滚操作，多版本安装，多用户包管理，和方便的开发环境设置。
+
+[nix作为包管理工具并用于发布软件的可行性研究](https://xusheng.org/blog/2020/01/06/nix/)
+
+[Nix - Linux的纯功能包管理器](https://www.howtoing.com/nix-package-manager-for-linux)
+
+[src](https://github.com/NixOS/nix)
+
+
+## bintray-secure-ota
+
+Over-The-Air firmware upgrades for the Internet of Things devices with JFrog @bintray
+
+[src](https://github.com/platformio/bintray-secure-ota)
+
+https://uptane.github.io/
+
+Uptane is an open and secure software update system design which protects software delivered over-the-air to the computerized units of automobiles. The framework can thwart attacks from malicious actors who can compromise servers and networks used to sign and deliver updates. Hence, it is designed to be resilient even to the best efforts of nation state attackers. There are multiple different free open source and closed source implementations available. Uptane is integrated into Automotive Grade Linux, an open source system currently used by many large OEMs, and has also been adopted by a number of U.S. and international manufacturers. Within the next few years, about one-third of new cars on U.S. roads will include Uptane.
+
+https://github.com/uptane/uptane
+
+https://github.com/samlauzon/libuptane
+
+## rauc
+
+RAUC controls the update process on embedded Linux systems. It is both a target application that runs as an update client and a host/target tool that allows you to create, inspect and modify installation artifacts.
+
+https://github.com/rauc/rauc
+
+
+## Squirrel.Windows
+
+An installation and update framework for Windows desktop apps
+
+atom 的 update.exe 就是这东西
+
+https://github.com/Squirrel/Squirrel.Windows
+
+
+
+## hunter
+
+CMake driven cross-platform package manager for C/C++.
+
+
+https://github.com/cpp-pm/hunter
+
+
+## cget
+
+ The missing package manager for cmake
+
+ cget brings C/C++ closer to parity with other language's tools (e.g. npm, pip, maven, gradle) by bringing cross-platform module resolution to cmake. cget does this in the way which is most native to each system:
+
+ https://github.com/cget/cget-core
+
+## winget-cli
+
+Windows Package Manager CLI (aka winget)
+
+https://github.com/microsoft/winget-cli
+
+ # 参考
+
+ [我们是否需要通用的 C++ 软件包管理器?](https://www.infoq.cn/article/does-cpp-need-a-universal-package-manager)
+
+ C++ 在软件包管理器上并不存在短板。当前有大量的工具可用，例如 buckaroo 、 cget 、 conan 、 conda 、 cpm 、 cppan 、 hunter 等等，不胜枚举。
