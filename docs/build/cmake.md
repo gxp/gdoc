@@ -507,6 +507,7 @@ http://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake
 # cross-compile
 
 * Create in the root of GoogleTest folder  toolchain-arm-linux-gnueabihf.cmake file with the following content:
+
 ```
 # Target system
 SET(CMAKE_SYSTEM_NAME Linux)
@@ -545,3 +546,32 @@ cmake不提供uninstall支持，但可从文件install_manifest.txt中查看安�
 ```
 cat ./install_manifest.txt | xargs sudo rm
 ```
+
+
+# x64
+
+How to build x86 and/or x64 on Windows from command line with CMAKE?
+
+This cannot be done with CMake. You have to generate two separate build folders. One for the x86 NMake build and one for the x64 NMake build. You cannot generate a single Visual Studio project covering both architectures with CMake, either.
+
+To build Visual Studio projects from the command line for both 32-bit and 64-bit without starting a Visual Studio command prompt, use the regular Visual Studio generators.
+
+For CMake 3.13 or newer, run the following commands:
+
+cmake -G "Visual Studio 16 2019" -A Win32 -S \path_to_source\ -B "build32"
+cmake -G "Visual Studio 16 2019" -A x64 -S \path_to_source\ -B "build64"
+cmake --build build32 --config Release
+cmake --build build64 --config Release
+
+For earlier versions of CMake, run the following commands:
+
+mkdir build32 & pushd build32
+cmake -G "Visual Studio 15 2017" \path_to_source\
+popd
+mkdir build64 & pushd build64
+cmake -G "Visual Studio 15 2017 Win64" \path_to_source\
+popd
+cmake --build build32 --config Release
+cmake --build build64 --config Release
+
+CMake generated projects that use one of the Visual Studio generators can be built from the command line with using the option --build followed by the build directory. The --config options specifies the build configuration.

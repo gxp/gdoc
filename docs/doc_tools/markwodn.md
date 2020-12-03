@@ -6,6 +6,19 @@
 
 注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。
 
+### 标题居中，并且放大
+
+对于一级标题用 # 即可，但是有时候 我们需要居中，直接写是不行的
+
+<center> 实习总结报告</center>
+
+效果如下，这样虽然可以居中，但是markdown语法就没有效果了
+
+由于markdown是兼容html的，我们可以这样
+
+<center ><font size='70'>实习总结报告</font></center>
+
+
 ## 字体
 
     加粗:要加粗的文字左右分别用两个*号包起来
@@ -15,6 +28,17 @@
     斜体加粗:要倾斜和加粗的文字左右分别用三个*号包起来
 
     删除线:要加删除线的文字左右分别用两个~~号包起来
+
+## 文字居中和带颜色
+
+<center>这一行需要居中</center>
+
+<font face="黑体" size=10>我是黑体字</font>
+
+<font color=red size=22>颜色</font>
+
+[markdown让文字居中和带颜色](https://www.cnblogs.com/bigmagic/p/3301b25e8b0b8ef8b9415379385a798c.html)
+
 
 ## 引用
 
@@ -31,6 +55,14 @@
 
 图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
 图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+
+### 
+
+<div align=center>![这里写图片描述](http:...) 
+
+[Markdown-图片设置（大小，居中）](https://blog.csdn.net/qq_35451572/article/details/79443467)
+
+<div align=left>
 
 ## 超链接
 
@@ -98,6 +130,7 @@ title可加可不加
 
 ## 流程图
 
+<div align=center>
 ```flow
 st=>start: 开始
 op=>operation: My Operation
@@ -106,4 +139,22 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+
+```
+
+<div align=left>
+
+# 工具
+
+## Markdown Preview Enhanced
+Markdown Preview Enhanced 是一款为 Atom 以及 Visual Studio Code 编辑器编写的超级强大的 Markdown 插件。 这款插件意在让你拥有飘逸的 Markdown 写作体验。
+
+[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
+
+[src](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)
+
+[Powerful markdown tool ](https://github.com/shd101wyy/mume)
+
+[markdown preview enhanced文档（简体中文版）](https://www.bookstack.cn/read/mpe/zh-cn-_sidebar.md)
+
+[关于插件Markdown Preview Enhanced的使用技巧](https://blog.csdn.net/weixin_34407348/article/details/94321593?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)

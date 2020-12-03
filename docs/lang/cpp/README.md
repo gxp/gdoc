@@ -65,3 +65,7 @@ https://github.com/ChaiScript/ChaiScript
 [使用 Clang 解析 C++ 头文件实现自动脚本绑定](http://sakishum.github.io/blog/clang-ast-python/)
 
 [LLVM与C++代码的相互调用](https://blog.csdn.net/songchuwang1868/article/details/84977794?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)
+
+[C/C++代码复用与包管理](https://www.jianshu.com/p/5de358c1c007)
+
+[现代 C++ 教程：高速上手 C++11/14/17/20](https://github.com/changkun/modern-cpp-tutorial)

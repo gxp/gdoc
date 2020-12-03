@@ -179,3 +179,10 @@ https://github.com/ponylang/ponyc
 libatask(Asynchronous multitasking library)是一个由纯C语言编写的基于事件循环由多事件驱动的高性能协程库。它将事件与协程进行了结合，还原了协程最本质的用途。libatask性能高且资源占用极低，仅需56B的RAM，以及不到1K的CODE，不仅仅是PC环境，连最苛刻单片机环境中也能完美运行。
 
 https://github.com/xiaoliang314/libatask
+
+
+# ireader/sdk
+
+portable system call(aio/socket/thread/process/lock/event/pipe) 
+
+https://github.com/ireader/sdk

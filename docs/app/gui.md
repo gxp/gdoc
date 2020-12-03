@@ -34,6 +34,14 @@ A library for creating native cross-platform GUI apps.
 [src](https://github.com/yue)
 
 
+# asm-dom
+
+A minimal WebAssembly virtual DOM to build C++ SPA (Single page applications)
+
+asm-dom is a minimal WebAssembly virtual DOM to build C++ SPA (Single page applications). You can write an entire SPA in C++ and compile it to WebAssembly (or asmjs as fallback) using Emscripten, asm-dom will call DOM APIs for you.
+
+https://github.com/mbasso/asm-dom
+
 # GuiLite
 
 Small: Just under 5,000 lines of C++ and header-only: GuiLite.h
@@ -52,6 +60,47 @@ gear️Hardware Minimum Requirements:
 
 [src](https://github.com/idea4good/GuiLite)
 
+# qml
 
+## qmlweb
+
+A QML engine in a web browser. Current state: fixing things… 
+
+This project aims at bringing the power of QML to the web browser. Here's a sample of how QML looks like:
+
+https://github.com/qmlweb/qmlweb
+
+
+Related efforts
+
+### Qt Quick WebGL streaming
+
+That will allow users to run the main Qt process on the server and render on HTML clients through WebGL. Qt WebGL streaming requires one application process on server per each client — only the painting is delegated to the client.
+
+The usecase differs significantly from QmlWeb, as QmlWeb runs all code on the clients, attempting to reuse browser APIs as much as possible to provide better integration. No server-side code is needed, server provides static files.
+
+### PureQml framework
+
+PureQml aims to implement a language close to original QML, but it does not target 100% compatibility with Qt QML, unlike QmlWeb. They also provide a framework based on their language and target support for a great variety of platforms.
+
+### Qt/QML + Emscripten
+
+Transplitting all the required Qt/QML libraries to JS/WebAssembley and rendering everything to Canvas provides the best possible compatibility with upstream Qt. That comes at a price, though — the runtime is pretty big, and that approach does not allow to reuse many existing browser APIs and components.
+
+### Qt for WebAssembly port
+
+Similar as the above «Qt/QML + Emscripten», but more up to date. Upstream issue: QTBUG-63917.
+
+Examples at https://msorvig.github.io/qt-webassembly-examples/.
+
+## qmlcore
+
+QML to Javascript/HTML5 translator, both for mobile and desktop targets 
+
+QmlCore is a simple set of tools we (a small team of QML advocates) use since years to simplify the development of HTML5 UIs for both mobile and desktop devices. It was designed with the original QML in mind, while it's not 100% compatible and improved in some aspects. The main concepts are the same though, so if you're familiar with original QML, you could start right away.
+
+[qmlcore](https://github.com/pureqml/qmlcore)
+
+# 参考
 
 [rust gui list ](https://lib.rs/gui)

@@ -227,3 +227,8 @@ mdBook is a utility to create modern online books from Markdown files.
 What does it look like?
 
 The User Guide for mdBook has been written in Markdown and is using mdBook to generate the online book-like website you can read. The documentation uses the latest version on GitHub and showcases the available features.
+
+
+# C4-Builder
+
+[C4-Builder](https://github.com/adrianvlupu/C4-Builder)

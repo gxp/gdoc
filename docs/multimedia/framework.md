@@ -20,3 +20,10 @@ PulseAudio的主要特点包括:
     能够同步播放多个音频流
     动态检测蓝牙音频设备
     使全系统均衡的能力 
+
+
+# HIVIEW
+
+Multi-process software framework for hisilicon (海思) ipc/dvr/nvr/ebox 
+
+https://github.com/openhisilicon/HIVIEW

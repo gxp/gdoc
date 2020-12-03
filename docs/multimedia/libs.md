@@ -39,3 +39,17 @@ SFML — Simple and Fast Multimedia Library
 SFML is a simple, fast, cross-platform and object-oriented multimedia API. It provides access to windowing, graphics, audio and network. It is written in C++, and has bindings for various languages such as C, .Net, Ruby, Python.
 
 https://github.com/SFML/SFML
+
+
+# ireader/avcodec
+
+av encoder/decoder/render/player 
+
+
+    H.264 bit stream parse
+    H.264 encode by X264
+    H.264 encode by OpenH264
+    FFMPEG video encode/decode
+
+
+https://github.com/ireader/avcodec

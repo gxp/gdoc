@@ -36,3 +36,14 @@ TM8211 只有几毛钱一个，立创商场有卖
 ## ESP32 Audio
 
 ESP32 官方使用的codec也比较便宜.
+
+
+# 模块化
+
+## elfloader
+
+The goal of this project is provide a loader for ELF file format for ARMv7-M (thumb-2) architecture (Aka Cortex-M, Cortex-R in Thumb2 mode) over bare-metal or RTOS enviroment.
+
+This loader not required MMU or special OS support (only aligned memory alloc) and run with minimun memory overhead (only required parts of files is loaded in memory).
+
+[src](https://github.com/martinribelotta/elfloader)

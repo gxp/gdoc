@@ -4,7 +4,7 @@
 
 It is also possible to use the command line java -jar plantuml.jar -stdlib to display the same list.
 
-[æ ‡å‡†åº“](https://plantuml.com/zh/stdlib)
+[标准库](https://plantuml.com/zh/stdlib)
 
 @startuml
 stdlib
