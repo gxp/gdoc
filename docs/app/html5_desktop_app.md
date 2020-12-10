@@ -273,6 +273,16 @@ Support for multiplatform programming is one of Kotlin’s key benefits. It redu
 
 [Kotlin Multiplatform - 下一代全平台开发技术](https://www.jianshu.com/p/80eddf62a99a)
 
+
+## PySimpleGUI 
+
+Python GUIs for Humans
+
+Transforms the tkinter, Qt, WxPython, and Remi (browser-based) GUI frameworks into a simpler interface. The window definition is simplified by using Python core data types understood by beginners (lists and dictionaries). Further simplification happens by changing event handling from a callback-based model to a message passing one.
+
+[github](https://github.com/PySimpleGUI)
+
+
 # 参考
 
 [浅谈前端八大UI库-2020-05-25](https://blog.csdn.net/u011068996/article/details/106339790)

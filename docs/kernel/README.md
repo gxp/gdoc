@@ -12,3 +12,5 @@
 [Linux设备驱动模块自加载示例与原理解析](https://blog.csdn.net/luckyapple1028/article/details/44261391)
 
 [从Linux内核调用用户空间应用程序](https://www.linuxidc.com/Linux/2010-04/25536.htm)
+
+[Linux内核中断引入用户空间（异步通知机制）](https://blog.csdn.net/kingdragonfly120/article/details/10858647?utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase)
